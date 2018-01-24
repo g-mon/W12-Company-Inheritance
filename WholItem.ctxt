@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WholItem
+comment1.params=n\ v\ r\ p
+comment1.target=WholItem(java.lang.String,\ double,\ int,\ double)
+comment2.params=
+comment2.target=void\ print()
+numComments=3

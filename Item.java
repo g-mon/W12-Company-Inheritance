@@ -1,9 +1,17 @@
 public class Item{
     private String name;
-    private double pricePreVat;
-    private double VAT;
+    protected double VAT;
+    private int refID;
+    private String description;
     
-    public Item(String name, ){
+    public Item(String name, double vat, int ref ){
         this.name=name;
-        
+        VAT=vat;
+        refID=ref;
+        description="";      
     }
+    
+    public void print(){
+        System.out.println("Name: " + name + " // Reference ID: " + refID + " // Description: " + description);
+    }
+}
