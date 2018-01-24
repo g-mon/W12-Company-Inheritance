@@ -9,6 +9,6 @@ public class WholItem extends Item{
     public void print(){
         super.print();
         double priceAfterTax = price*(1+VAT);
-        System.out.println("The price is £" + priceAfterTax);
+        System.out.println("(Ignore this line if item is second hand) The price is £" + priceAfterTax);
     }
 }
