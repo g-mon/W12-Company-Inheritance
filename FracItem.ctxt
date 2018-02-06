@@ -4,4 +4,6 @@ comment1.params=n\ v\ r\ uT\ pPU\ uS
 comment1.target=FracItem(java.lang.String,\ double,\ int,\ java.lang.String,\ double,\ double)
 comment2.params=
 comment2.target=void\ print()
-numComments=3
+comment3.params=
+comment3.target=double\ getPrice()
+numComments=4

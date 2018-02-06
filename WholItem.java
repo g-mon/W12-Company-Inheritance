@@ -11,4 +11,8 @@ public class WholItem extends Item{
         double priceAfterTax = price*(1+VAT);
         System.out.println("(Ignore this line if item is second hand) The price is £" + priceAfterTax);
     }
+    
+    public double getPrice(){
+        return price;
+    }
 }

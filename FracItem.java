@@ -7,7 +7,6 @@ public class FracItem extends Item{
         super(n,v,r);
         pricePerUnit=pPU;
         unitType=uT;
-        pricePerUnit=pPU;
         unitSize=uS;
     }
     
@@ -16,5 +15,10 @@ public class FracItem extends Item{
         double ppuAfterTax = pricePerUnit*(1+VAT);
         System.out.println("The price is £" + ppuAfterTax+ " per " + unitSize + unitType);
     }
+    
+    public double getPrice(){
+        return pricePerUnit;
+    }
+  
 }
     

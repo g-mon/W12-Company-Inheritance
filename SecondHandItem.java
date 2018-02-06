@@ -19,6 +19,10 @@ public class SecondHandItem extends WholItem{
         }
     }
     
+    public double getPrice(){
+        return adjustedPrice;
+    }
+    
     public void print(){
         super.print();
         System.out.println("The price is £" + adjustedPrice);

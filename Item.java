@@ -14,4 +14,13 @@ public class Item{
     public void print(){
         System.out.println("Name: " + name + " // Reference ID: " + refID + " // Description: " + description);
     }
+    
+    public double getPrice(){
+        return 0;
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
 }
